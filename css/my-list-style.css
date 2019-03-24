@@ -1,3 +1,111 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+/* css for header start */
+.hd {
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://www.virginexperiencedays.co.uk/content/img/product/large/zombie-outbreak-experience-05091206.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.hd h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	width: 780px;
+	padding-left:22%;
+	padding-top:200px;
+	text-align:center;
+}
+/* css for header end */
+/* css for link start */
+a {
+	color: #42b4d6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/* css for link end */
+/* css for profile start */
+.pf {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 18px;
+	color: rgb(51,51,51);
+	line-height: 24px;
+	margin-top: -50px;
+	text-align: center;
+}
+
+.pf .author {
+	font-weight: bold;
+}
+
+.pf .updated {
+	font-style: italic;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.pf img {
+	width: 100px;
+	border: 1px solid white;
+	border-radius: 100%
+}
+/* css for profile end */
+
+/* css for content start */
+.container {
+	font-family: Roboto Slab, serif;
+	width:66.67%;
+	padding-left:20px;
+	padding-top:60px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-bottom:120px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.cont_hd {
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+	flex-grow: 2;
+	flex-shrink: 1;
+	flex-basis: 50%;
+}
+
+.hd1:before {
+	content:'1';
+	position:absolute;
+	left: -40px;	
+	color: rgba(0, 0, 0, 0.25);
+}
+.hd2:before {
+	content:'2';
+	position:absolute;
+	left: -40px;	
+	color: rgba(0, 0, 0, 0.25);
+}
+.hd3:before {
+	content:'3';
+	position:absolute;
+	left: -40px;	
+	color: rgba(0, 0, 0, 0.25);
+}
+.hd4:before {
+	content:'4';
+	position:absolute;
+	left: -40px;	
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.content {
+	line-height: 32px;
+}
+/* css for content end */
