@@ -56,20 +56,17 @@ a:hover {
 	border-radius: 100%
 }
 /* css for profile end */
-/* css for article start */
-.arti {
-	margin: 0 auto;
-}
-/* css for article end */
+
 /* css for content start */
 .container {
 	font-family: Roboto Slab, serif;
 	width:66.67%;
 	padding-left:20px;
 	padding-top:60px;
-	position: absolute;
+	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	padding-bottom:120px;
 }
 .cont_hd {
 	font-family: Roboto Slab, serif;
@@ -110,46 +107,4 @@ a:hover {
 .content {
 	line-height: 32px;
 }
-/* section { */
-	/* margin: 60px auto 120px auto; */
-	/* display: flex; */
-	/* justify-content: center; */
-/* } */
-
-/* section span{ */
-	/* margin-right: 40px; */
-	/* margin-left: -40px; */
-	/* font-family: Roboto Slab, serif; */
-	/* font-size: 36px; */
-	/* font-weight: normal; */
-	/* color: rgba(0, 0, 0, 0.25); */
-/* } */
-
-/* section div { */
-	/* width: 66.67%; */
-/* } */
-
-/* section h1 { */
-	/* font-family: Roboto Slab, serif; */
-	/* font-size: 36px; */
-	/* font-weight: bold; */
-/* } */
-
-/* section h3 { */
-	/* margin-bottom: 20px; */
-	/* font-family: Roboto Slab, serif; */
-	/* font-size: 18px; */
-	/* font-weight: normal; */
-/* } */
-
-/* section p { */
-	/* font-size: 18px; */
-	/* line-height: 32px; */
-	/* color: rgb(51, 51, 51); */
-    /* font-family: 'Source Sans Pro', sans-serif; */
-/* } */
-
-/* section img { */
-	/* width: 100%; */
-/* } */
 /* css for content end */
